@@ -1,0 +1,43 @@
+% Farkhad Gapparov 500718721, Sec 052
+% Mohib Abdullah 500715782
+
+% pure generate and test, time taken is 0.40625s
+
+?- X is cputime, print_solution(L), Y is cputime, Z is Y - X.
+X = 11.015625
+L = [9, 0, 5, 1, 2, 8, 6]
+Y = 11.421875
+Z = 0.40625
+Yes (0.41s cpu, solution 1, maybe more)
+No (0.45s cpu)
+
+   905
+*   12
+-------
+  1810
++ 905 
+-------
+ 10860
+
+
+
+
+% interleaving generate and test, time taken is 0.0s which means the actual time was so miniscule it does not show when rounded.
+% I have i7 cpu, if tested on waaay slower CPU there should be noticeable difference in computation time.
+
+?- X is cputime, print_solution(L), Y is cputime, Z is Y - X.
+X = 11.46875
+L = [9, 0, 5, 1, 2, 8, 6]
+Y = 11.46875
+Z = 0.0
+Yes (0.00s cpu, solution 1, maybe more)
+No (0.00s cpu)
+
+
+   905
+*   12
+-------
+  1810
++ 905 
+-------
+ 10860

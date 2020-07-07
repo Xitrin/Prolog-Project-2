@@ -1,0 +1,14 @@
+% Farkhad Gapparov 500718721, Sec 052
+% Mohib Abdullah 500715782
+
+?- X is cputime, print_solution, Y is cputime, Z is Y - X.
+X = 11.46875
+Y = 11.46875
+Z = 0.0
+Yes (0.00s cpu, solution 1, maybe more)
+No (0.00s cpu)
+
+The President is frank
+The Vice-President is eva
+The Secretary is colleen
+The Treasurer is bart
