@@ -1,6 +1,3 @@
-% Farkhad Gapparov 500718721, Sec 052
-% Mohib Abdullah 500715782
-
 print_solution :-
     solve([P,VP,S,T]),
     write('The President is '), write(P), nl,
