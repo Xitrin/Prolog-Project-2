@@ -1,6 +1,3 @@
-% Farkhad Gapparov 500718721, Sec 052
-% Mohib Abdullah 500715782
-
 print_solution(L):- L = [G,E,T,B,Y,A,R],  solve(L),
 		write('   '), write(G), write(E), write(T), nl,
 		write('*'), write('   '),  write(B),write(Y),nl,
