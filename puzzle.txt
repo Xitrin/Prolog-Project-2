@@ -1,6 +1,3 @@
-% Farkhad Gapparov 500718721, Sec 052
-% Mohib Abdullah 500715782
-
 % pure generate and test, time taken is 0.40625s
 
 ?- X is cputime, print_solution(L), Y is cputime, Z is Y - X.
