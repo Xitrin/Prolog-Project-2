@@ -1,6 +1,3 @@
-% Farkhad Gapparov 500718721, Sec 052
-% Mohib Abdullah 500715782
-
 % different ordering of matches oriented to teams, not rounds like before.
 % using scoring letters -> numbers (.ex w = 2). Calculating total for each team
 % (skipped match counts as -1, so total is lower than if it counted as 0, to change it change scoring of n in solve(L))
